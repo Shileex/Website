@@ -1,0 +1,122 @@
+body{
+  background: #e6eff6;
+  margin: 0;
+  padding: 0;
+  font: 8px/1.5 Montserrat, Arial, Helvetica, sans-serif;
+}
+
+/* General */
+.container{
+  background: #ffffff;
+  border-radius: 3px;
+  margin: 70px auto auto;
+  width: 50%;
+}
+
+.left-box, .right-box{
+  width: 45%;
+  color: #ffffff;
+}
+
+.left-box{
+  padding-bottom: 89px;
+}
+
+.button_1{
+  background: #bfdf32;
+  color: #ffffff;
+  border: none;
+  font-family: lato, sans-serif;
+  font-size: 8px;
+  padding: 5px 10px;
+  width: 66%;
+  margin-top: 10px;
+}
+
+p{
+  font-family: Roboto, Lato, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 5px;
+}
+
+/* Upeer Box */
+.upper-box{
+  background: #ffffff;
+  padding: 20px;
+  margin: 0;
+}
+
+.upper-box h3{
+  color: #42a9a6;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.upper-box p{
+  color: #a8adb3;
+}
+
+.upper-box .Thirty {
+  color: #c0d844;
+  font-size: 10px;
+}
+
+/* Left Box */
+.left-box{
+  background: #29a3a1;
+  float: left;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.left-box h3{
+  font-size:15px;
+}
+
+
+.price{
+  font-family: Montserrat;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+/* Right Box */
+.right-box{
+  background: #53cccb;
+  float: right;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.right-box h3{
+  font-size:15px;
+}
+
+.right-box p{
+  margin-bottom: 5px;
+}
+
+
+/* Media Queries */
+@media(max-width: 768px) {
+  .left-box,
+  .upper-box,
+  .right-box,
+  .button1{
+    float: none;
+    width: 100%;
+  }
+
+  .upper-box{
+    padding-right: 10px;
+  }
+
+  .left-box{
+    padding-top: 40px;
+  }
+
+  .button_1{
+    width: 90%;
+  }
+}
